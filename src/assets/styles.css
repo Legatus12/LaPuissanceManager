@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #app, .page { @apply w-full h-full }
+
+body { font-family: 'Monserrat', sans-serif; }
+
+.page { @apply flex flex-col bg-[#232323] text-[#f6f6f6] p-12 }
